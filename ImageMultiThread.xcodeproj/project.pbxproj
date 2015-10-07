@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94BA25F1197138B1006CC93A /* ImagesController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94BA25F0197138B1006CC93A /* ImagesController.mm */; };
+		9407DB201BC560C900DA5D94 /* ImagesController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9407DB1F1BC560C900DA5D94 /* ImagesController.mm */; settings = {ASSET_TAGS = (); }; };
 		94BA25F41971C1B8006CC93A /* MyCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA25F31971C1B8006CC93A /* MyCommon.m */; };
 		94BA262919726248006CC93A /* BreviaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA262819726248006CC93A /* BreviaryCell.m */; };
 		94BA262B19727923006CC93A /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94BA262A19727923006CC93A /* loading.jpg */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94BA25EF197138B1006CC93A /* ImagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagesController.h; path = ../ImagesController.h; sourceTree = "<group>"; };
-		94BA25F0197138B1006CC93A /* ImagesController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ImagesController.mm; path = ../ImagesController.mm; sourceTree = "<group>"; };
+		9407DB1E1BC560C900DA5D94 /* ImagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesController.h; sourceTree = "<group>"; };
+		9407DB1F1BC560C900DA5D94 /* ImagesController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImagesController.mm; sourceTree = "<group>"; };
 		94BA25F21971C1B8006CC93A /* MyCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCommon.h; sourceTree = "<group>"; };
 		94BA25F31971C1B8006CC93A /* MyCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCommon.m; sourceTree = "<group>"; };
 		94BA262719726248006CC93A /* BreviaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreviaryCell.h; sourceTree = "<group>"; };
@@ -124,8 +124,8 @@
 			children = (
 				94CB5B4D197121820017C8CE /* AppDelegate.h */,
 				94CB5B4E197121820017C8CE /* AppDelegate.m */,
-				94BA25EF197138B1006CC93A /* ImagesController.h */,
-				94BA25F0197138B1006CC93A /* ImagesController.mm */,
+				9407DB1E1BC560C900DA5D94 /* ImagesController.h */,
+				9407DB1F1BC560C900DA5D94 /* ImagesController.mm */,
 				94BA262719726248006CC93A /* BreviaryCell.h */,
 				94BA262819726248006CC93A /* BreviaryCell.m */,
 				94BA25F21971C1B8006CC93A /* MyCommon.h */,
@@ -273,7 +273,7 @@
 				94CB5B4F197121820017C8CE /* AppDelegate.m in Sources */,
 				94BA262919726248006CC93A /* BreviaryCell.m in Sources */,
 				94CB5B4B197121820017C8CE /* main.m in Sources */,
-				94BA25F1197138B1006CC93A /* ImagesController.mm in Sources */,
+				9407DB201BC560C900DA5D94 /* ImagesController.mm in Sources */,
 				94BA25F41971C1B8006CC93A /* MyCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
