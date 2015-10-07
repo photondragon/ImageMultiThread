@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94BA25F1197138B1006CC93A /* ImagesController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94BA25F0197138B1006CC93A /* ImagesController.mm */; };
+		94BA25F41971C1B8006CC93A /* MyCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA25F31971C1B8006CC93A /* MyCommon.m */; };
+		94BA262919726248006CC93A /* BreviaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BA262819726248006CC93A /* BreviaryCell.m */; };
+		94BA262B19727923006CC93A /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94BA262A19727923006CC93A /* loading.jpg */; };
+		94BA262D19727ABD006CC93A /* loading2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94BA262C19727ABD006CC93A /* loading2.jpg */; };
+		94CB5B3F197121820017C8CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB5B3E197121820017C8CE /* Foundation.framework */; };
+		94CB5B41197121820017C8CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB5B40197121820017C8CE /* CoreGraphics.framework */; };
+		94CB5B43197121820017C8CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB5B42197121820017C8CE /* UIKit.framework */; };
+		94CB5B49197121820017C8CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94CB5B47197121820017C8CE /* InfoPlist.strings */; };
+		94CB5B4B197121820017C8CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB5B4A197121820017C8CE /* main.m */; };
+		94CB5B4F197121820017C8CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB5B4E197121820017C8CE /* AppDelegate.m */; };
+		94CB5B52197121820017C8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CB5B50197121820017C8CE /* Main.storyboard */; };
+		94CB5B57197121820017C8CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CB5B56197121820017C8CE /* Images.xcassets */; };
+		94CB5B5E197121820017C8CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB5B5D197121820017C8CE /* XCTest.framework */; };
+		94CB5B5F197121820017C8CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB5B3E197121820017C8CE /* Foundation.framework */; };
+		94CB5B60197121820017C8CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CB5B42197121820017C8CE /* UIKit.framework */; };
+		94CB5B68197121820017C8CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94CB5B66197121820017C8CE /* InfoPlist.strings */; };
+		94CB5B6A197121820017C8CE /* ImageMultiThreadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CB5B69197121820017C8CE /* ImageMultiThreadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94CB5B61197121820017C8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94CB5B33197121820017C8CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CB5B3A197121820017C8CE;
+			remoteInfo = ImageMultiThread;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94BA25EF197138B1006CC93A /* ImagesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagesController.h; path = ../ImagesController.h; sourceTree = "<group>"; };
+		94BA25F0197138B1006CC93A /* ImagesController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ImagesController.mm; path = ../ImagesController.mm; sourceTree = "<group>"; };
+		94BA25F21971C1B8006CC93A /* MyCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCommon.h; sourceTree = "<group>"; };
+		94BA25F31971C1B8006CC93A /* MyCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCommon.m; sourceTree = "<group>"; };
+		94BA262719726248006CC93A /* BreviaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreviaryCell.h; sourceTree = "<group>"; };
+		94BA262819726248006CC93A /* BreviaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreviaryCell.m; sourceTree = "<group>"; };
+		94BA262A19727923006CC93A /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading.jpg; sourceTree = "<group>"; };
+		94BA262C19727ABD006CC93A /* loading2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading2.jpg; sourceTree = "<group>"; };
+		94CB5B3B197121820017C8CE /* ImageMultiThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMultiThread.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CB5B3E197121820017C8CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94CB5B40197121820017C8CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94CB5B42197121820017C8CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94CB5B46197121820017C8CE /* ImageMultiThread-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageMultiThread-Info.plist"; sourceTree = "<group>"; };
+		94CB5B48197121820017C8CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94CB5B4A197121820017C8CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94CB5B4C197121820017C8CE /* ImageMultiThread-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageMultiThread-Prefix.pch"; sourceTree = "<group>"; };
+		94CB5B4D197121820017C8CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94CB5B4E197121820017C8CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94CB5B51197121820017C8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94CB5B56197121820017C8CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94CB5B5C197121820017C8CE /* ImageMultiThreadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMultiThreadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CB5B5D197121820017C8CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94CB5B65197121820017C8CE /* ImageMultiThreadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageMultiThreadTests-Info.plist"; sourceTree = "<group>"; };
+		94CB5B67197121820017C8CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94CB5B69197121820017C8CE /* ImageMultiThreadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMultiThreadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94CB5B38197121820017C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CB5B41197121820017C8CE /* CoreGraphics.framework in Frameworks */,
+				94CB5B43197121820017C8CE /* UIKit.framework in Frameworks */,
+				94CB5B3F197121820017C8CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CB5B59197121820017C8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CB5B5E197121820017C8CE /* XCTest.framework in Frameworks */,
+				94CB5B60197121820017C8CE /* UIKit.framework in Frameworks */,
+				94CB5B5F197121820017C8CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94CB5B32197121820017C8CE = {
+			isa = PBXGroup;
+			children = (
+				94CB5B44197121820017C8CE /* ImageMultiThread */,
+				94CB5B63197121820017C8CE /* ImageMultiThreadTests */,
+				94CB5B3D197121820017C8CE /* Frameworks */,
+				94CB5B3C197121820017C8CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CB5B3C197121820017C8CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94CB5B3B197121820017C8CE /* ImageMultiThread.app */,
+				94CB5B5C197121820017C8CE /* ImageMultiThreadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94CB5B3D197121820017C8CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94CB5B3E197121820017C8CE /* Foundation.framework */,
+				94CB5B40197121820017C8CE /* CoreGraphics.framework */,
+				94CB5B42197121820017C8CE /* UIKit.framework */,
+				94CB5B5D197121820017C8CE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94CB5B44197121820017C8CE /* ImageMultiThread */ = {
+			isa = PBXGroup;
+			children = (
+				94CB5B4D197121820017C8CE /* AppDelegate.h */,
+				94CB5B4E197121820017C8CE /* AppDelegate.m */,
+				94BA25EF197138B1006CC93A /* ImagesController.h */,
+				94BA25F0197138B1006CC93A /* ImagesController.mm */,
+				94BA262719726248006CC93A /* BreviaryCell.h */,
+				94BA262819726248006CC93A /* BreviaryCell.m */,
+				94BA25F21971C1B8006CC93A /* MyCommon.h */,
+				94BA25F31971C1B8006CC93A /* MyCommon.m */,
+				94CB5B50197121820017C8CE /* Main.storyboard */,
+				94CB5B56197121820017C8CE /* Images.xcassets */,
+				94CB5B45197121820017C8CE /* Supporting Files */,
+			);
+			path = ImageMultiThread;
+			sourceTree = "<group>";
+		};
+		94CB5B45197121820017C8CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94BA262C19727ABD006CC93A /* loading2.jpg */,
+				94BA262A19727923006CC93A /* loading.jpg */,
+				94CB5B46197121820017C8CE /* ImageMultiThread-Info.plist */,
+				94CB5B47197121820017C8CE /* InfoPlist.strings */,
+				94CB5B4A197121820017C8CE /* main.m */,
+				94CB5B4C197121820017C8CE /* ImageMultiThread-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94CB5B63197121820017C8CE /* ImageMultiThreadTests */ = {
+			isa = PBXGroup;
+			children = (
+				94CB5B69197121820017C8CE /* ImageMultiThreadTests.m */,
+				94CB5B64197121820017C8CE /* Supporting Files */,
+			);
+			path = ImageMultiThreadTests;
+			sourceTree = "<group>";
+		};
+		94CB5B64197121820017C8CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94CB5B65197121820017C8CE /* ImageMultiThreadTests-Info.plist */,
+				94CB5B66197121820017C8CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94CB5B3A197121820017C8CE /* ImageMultiThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CB5B6D197121820017C8CE /* Build configuration list for PBXNativeTarget "ImageMultiThread" */;
+			buildPhases = (
+				94CB5B37197121820017C8CE /* Sources */,
+				94CB5B38197121820017C8CE /* Frameworks */,
+				94CB5B39197121820017C8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageMultiThread;
+			productName = ImageMultiThread;
+			productReference = 94CB5B3B197121820017C8CE /* ImageMultiThread.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94CB5B5B197121820017C8CE /* ImageMultiThreadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CB5B70197121820017C8CE /* Build configuration list for PBXNativeTarget "ImageMultiThreadTests" */;
+			buildPhases = (
+				94CB5B58197121820017C8CE /* Sources */,
+				94CB5B59197121820017C8CE /* Frameworks */,
+				94CB5B5A197121820017C8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CB5B62197121820017C8CE /* PBXTargetDependency */,
+			);
+			name = ImageMultiThreadTests;
+			productName = ImageMultiThreadTests;
+			productReference = 94CB5B5C197121820017C8CE /* ImageMultiThreadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94CB5B33197121820017C8CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mahongjian;
+				TargetAttributes = {
+					94CB5B3A197121820017C8CE = {
+						DevelopmentTeam = L52WR6EY5Z;
+					};
+					94CB5B5B197121820017C8CE = {
+						TestTargetID = 94CB5B3A197121820017C8CE;
+					};
+				};
+			};
+			buildConfigurationList = 94CB5B36197121820017C8CE /* Build configuration list for PBXProject "ImageMultiThread" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94CB5B32197121820017C8CE;
+			productRefGroup = 94CB5B3C197121820017C8CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94CB5B3A197121820017C8CE /* ImageMultiThread */,
+				94CB5B5B197121820017C8CE /* ImageMultiThreadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94CB5B39197121820017C8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BA262B19727923006CC93A /* loading.jpg in Resources */,
+				94CB5B57197121820017C8CE /* Images.xcassets in Resources */,
+				94BA262D19727ABD006CC93A /* loading2.jpg in Resources */,
+				94CB5B49197121820017C8CE /* InfoPlist.strings in Resources */,
+				94CB5B52197121820017C8CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CB5B5A197121820017C8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CB5B68197121820017C8CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94CB5B37197121820017C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CB5B4F197121820017C8CE /* AppDelegate.m in Sources */,
+				94BA262919726248006CC93A /* BreviaryCell.m in Sources */,
+				94CB5B4B197121820017C8CE /* main.m in Sources */,
+				94BA25F1197138B1006CC93A /* ImagesController.mm in Sources */,
+				94BA25F41971C1B8006CC93A /* MyCommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CB5B58197121820017C8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CB5B6A197121820017C8CE /* ImageMultiThreadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94CB5B62197121820017C8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CB5B3A197121820017C8CE /* ImageMultiThread */;
+			targetProxy = 94CB5B61197121820017C8CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94CB5B47197121820017C8CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CB5B48197121820017C8CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94CB5B50197121820017C8CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CB5B51197121820017C8CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94CB5B66197121820017C8CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CB5B67197121820017C8CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94CB5B6B197121820017C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94CB5B6C197121820017C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94CB5B6E197121820017C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 红建 马 (M7LX57TPKQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 红建 马 (M7LX57TPKQ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMultiThread/ImageMultiThread-Prefix.pch";
+				INFOPLIST_FILE = "ImageMultiThread/ImageMultiThread-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94CB5B6F197121820017C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 红建 马 (M7LX57TPKQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 红建 马 (M7LX57TPKQ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMultiThread/ImageMultiThread-Prefix.pch";
+				INFOPLIST_FILE = "ImageMultiThread/ImageMultiThread-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94CB5B71197121820017C8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageMultiThread.app/ImageMultiThread";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMultiThread/ImageMultiThread-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageMultiThreadTests/ImageMultiThreadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94CB5B72197121820017C8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageMultiThread.app/ImageMultiThread";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageMultiThread/ImageMultiThread-Prefix.pch";
+				INFOPLIST_FILE = "ImageMultiThreadTests/ImageMultiThreadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94CB5B36197121820017C8CE /* Build configuration list for PBXProject "ImageMultiThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CB5B6B197121820017C8CE /* Debug */,
+				94CB5B6C197121820017C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CB5B6D197121820017C8CE /* Build configuration list for PBXNativeTarget "ImageMultiThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CB5B6E197121820017C8CE /* Debug */,
+				94CB5B6F197121820017C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CB5B70197121820017C8CE /* Build configuration list for PBXNativeTarget "ImageMultiThreadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CB5B71197121820017C8CE /* Debug */,
+				94CB5B72197121820017C8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94CB5B33197121820017C8CE /* Project object */;
+}
